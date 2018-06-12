@@ -1,0 +1,99 @@
+:host {
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 800px;
+  width: 96%;
+  margin: 0 auto;
+}
+
+h1 {
+  background: #8022b0;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 10px;
+}
+
+.form {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 50px 0;
+
+  input {
+    outline: 0;
+    font-size: 16px;
+    padding: 10px 40px 10px 15px;
+    margin: 0;
+    width: 100%;
+    background: #fff;
+    color: #545e6f;
+    flex-grow: 1;
+    border: 1px solid #d1deeb;
+    border-radius: 3px;
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box;
+  }
+
+  .error {
+    color: #a94442;
+    background: #f2dede;
+    border: 1px solid #e4b3b3;
+    border-radius: 2px;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 0 0;
+  }
+
+  .input-wrapper {
+    width: 45%;
+    min-height: 140px;
+
+    &:first-child {
+      margin-right: auto;
+    }
+
+    &:last-child {
+      margin-left: auto;
+    }
+  }
+
+  hr {
+    width: 100%;
+  }
+}
+
+h3 {
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  border-radius: 2px;
+  background: #39a1e7;
+  color: #fff;
+  padding: 10px 18px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+  display: block;
+  margin: 20px auto;
+}
+
+.indicies-list {
+  padding: 80px 0;
+}
+
+.btn-stop {
+  position: absolute;
+  left: calc(50% - 57px);
+}
+
+.list-wrapper {
+  position: relative;
+}
